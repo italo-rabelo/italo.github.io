@@ -30,11 +30,16 @@ DEFAULT_PAGINATION = 5
 SOCIAL = (('github', 'http://github.com/Talits'),('LinkedIN', "https://www.linkedin.com/in/talits/"),)
 
 
-
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}.html"
 PAGE_PATHS = ["pages"]
 DISPLAY_PAGES_ON_MENU = True
 
+
+MENUITEMS = (
+    ("Home", "/"),
+    ("Pages", "/themes"),
+    ("About", "index.html"),
+)
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
