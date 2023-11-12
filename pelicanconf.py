@@ -31,7 +31,12 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-PAGE_URL = 'pages/{slug}/'
-PAGE_SAVE_AS = 'pages/{slug}/index.html'
+PAGE_URL = 'pages/'
+PAGE_SAVE_AS = 'pages/index.html'
+
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = True
+MENUITEMS = [('Home', '/'), ('Pages', '/pages/')]
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

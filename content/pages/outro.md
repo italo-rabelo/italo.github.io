@@ -1,3 +1,7 @@
-Title: About Date: 2023-11-12
-
-Um outro post usando markdown :octocat:
+Title: Pagina sobre Pelican
+Date: 2023-11-12
+Author: Talita
+Tags: pelican, tutorial
+Category: Pages
+## 
+Testando uma page
