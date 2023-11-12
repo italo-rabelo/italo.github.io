@@ -1,7 +1,4 @@
-Title: Pagina sobre Pelican
+Title: About
 Date: 2023-11-12
-Author: Talita
-Tags: pelican, tutorial
-Category: Pages
-## 
-Testando uma page
+
+Trabalhando com DevOps e na ADA
