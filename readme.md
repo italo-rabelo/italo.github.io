@@ -1,3 +1,3 @@
 # Usando Python com Pelican
 
-Criando posts
+Criando posts automatizados
