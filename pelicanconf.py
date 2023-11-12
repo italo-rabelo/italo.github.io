@@ -25,18 +25,15 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
          ('You can modify those links in your config file', '#'),)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+DEFAULT_PAGINATION = 5
 
-DEFAULT_PAGINATION = 10
-
-PAGE_URL = 'pages/'
-PAGE_SAVE_AS = 'pages/index.html'
+SOCIAL = (('github', 'http://github.com/Talits'),)
+LINKS = (('LinkedIN', "https://www.linkedin.com/in/talits/"),)
 
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
-MENUITEMS = [('Home', '/'), ('Pages', '/pages/')]
+PAGE_URL = 'pages/{slug}.html'
+PAGE_SAVE_AS = 'pages/index.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
