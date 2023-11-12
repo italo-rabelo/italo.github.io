@@ -37,7 +37,6 @@ DISPLAY_PAGES_ON_MENU = True
 
 
 MENUITEMS = (
-    ("Home", "/"),
     ("Pages", "/pages/outro.html"),
     ("About", "index.html"),
 )
