@@ -3,7 +3,7 @@ name: Main Workflow
 on:
   push:
     branches:
-      - dev
+      - main
 
 jobs:
   build-and-deploy:
@@ -26,9 +26,9 @@ jobs:
           cp readme.md output/readme.md
           touch output/.nojekyll
 
-      - name: Deploy To Master Branch
+      - name: Deploy To Main Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_branch: master
+          publish_branch: main
           publish_dir: ./output
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
