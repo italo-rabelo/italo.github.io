@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "feature/blog" ]
   pull_request:
     branches: [ "main" ]
 
@@ -24,12 +24,11 @@ jobs:
       - name: Build Production Site
         run: |
           make publish
-          cp readme.md output/readme.md
           touch output/.nojekyll
 
       - name: Deploy To Main Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_branch: main
-          publish_dir: ./
+          publish_dir: ./output
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
