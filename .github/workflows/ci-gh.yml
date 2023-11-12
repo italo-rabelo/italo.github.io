@@ -32,4 +32,4 @@ jobs:
         with:
           publish_branch: main
           publish_dir: ./output
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
