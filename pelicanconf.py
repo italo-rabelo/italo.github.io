@@ -37,7 +37,7 @@ DISPLAY_PAGES_ON_MENU = True
 
 
 MENUITEMS = (
-    ("Pages", "/pages/outro.html"),
+    ("Pages", "about.html"),
     ("About", "index.html"),
 )
 # Uncomment following line if you want document-relative URLs when developing
