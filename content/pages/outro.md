@@ -1,4 +1,4 @@
 Title: About
-Date: 2023-11-12
+Date: 2023-11-16
 
-Trabalhando com DevOps e na ADA
+Estudando DevOps na ADA e cursando Ciência da Computação. Movido por desafios na área de DevOps, Cloud, Infrastructure
